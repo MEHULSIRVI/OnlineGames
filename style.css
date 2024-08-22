@@ -1,0 +1,48 @@
+body {
+	background: linear-gradient(to right, #18f4de, #f19e81);
+  }
+  /* Custom size for the carousel */
+  #carouselExampleIndicators {
+	width: 70%; /* Adjust the width */
+	height: 450px; /* Adjust the height */
+	margin: auto; /* Center the carousel */
+  }
+  .carousel-inner img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  .header {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+	  sans-serif;
+	text-align: center;
+  }
+  .play-button {
+	display: block;
+	width: 100px;
+	margin: 20px auto 0; /* Center the button horizontally and add margin to top */
+	padding: 10px 20px;
+	font-size: 16px;
+	color: #fff;
+	background-color: #007bff;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+	text-decoration: none; /* Remove underline */
+  }
+  .play-button:hover {
+	margin-top: none;
+	background-color: #0056b3; /* Darken on hover */
+	color: white;
+	text-decoration: none;
+	content: "Play";
+  }
+  .game-name {
+	text-align: center;
+	font-weight: bolder;
+	font-family: cursive;
+	margin-bottom: none;
+  }
